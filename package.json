@@ -1,0 +1,18 @@
+{
+  "name": "api-netflix",
+  "version": "0.1",
+  "main": "index.js",
+  "author": "Hippolyte Soulier",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  }
+}
